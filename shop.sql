@@ -85,7 +85,7 @@ CREATE TABLE `product` (
   `price` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `colour` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `os` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `image` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `slika` varchar(255) COLLATE utf8_unicode_ci,
   `Brandid` int,
   FOREIGN KEY (`Brandid`) REFERENCES brand(Brandid)  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
@@ -94,7 +94,7 @@ CREATE TABLE `product` (
 -- Dumping data for table `product`
 --
 
-INSERT INTO `product` (`model`, `ram`, `storage`, `price`, `colour`, `os`, `Brandid`,`image`) VALUES
+INSERT INTO `product` (`model`, `ram`, `storage`, `price`, `colour`, `os`, `Brandid`,`slika`) VALUES
 ('12', '4','256','640$','black','IOS', 2,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
 ('S21', '8','256','1040$','blue','Android', 1,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
 ('Nova 3', '4','64','440$','black','Harmony', 4,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
