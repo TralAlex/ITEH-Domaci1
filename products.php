@@ -89,20 +89,13 @@ if ($sviBrendovi->num_rows == 0) {
                                     <?php } ?>
                                 </select>
                             </td>
-                            <td> <input type="text" style="border: 1px solid black" name="model" placeholder="Model *"
-                                    value="" /></td>
-                            <td> <input type="text" style="border: 1px solid black" name="ram" placeholder="RAM*"
-                                    value="" /></td>
-                            <td> <input type="text" style="border: 1px solid black" name="storage"
-                                    placeholder="Storage *" value="" /></td>
-                            <td> <input type="text" style="border: 1px solid black" name="price" placeholder="Price *"
-                                    value="" /></td>
-                            <td> <input type="text" style="border: 1px solid black" name="colour" placeholder="Colour *"
-                                    value="" /></td>
-                            <td> <input type="text" style="border: 1px solid blue" name="os" placeholder="OS*"
-                                    value="" /></td>
-                            <td> <input type="text" style="border: 1px solid black" name="slika"
-                                    placeholder="Image URL *" value="" /></td>
+                            <td> <input type="text" name="model" placeholder="Model *" value="" /></td>
+                            <td> <input type="text" name="ram" placeholder="RAM*" value="" /></td>
+                            <td> <input type="text" name="storage" placeholder="Storage *" value="" /></td>
+                            <td> <input type="text" name="price" placeholder="Price *" value="" /></td>
+                            <td> <input type="text" name="colour" placeholder="Colour *" value="" /></td>
+                            <td> <input type="text" name="os" placeholder="OS*" value="" /></td>
+                            <td> <input type="text" name="slika" placeholder="Image URL *" value="" /></td>
                             <td> <button id="btnDodaj" type="submit" class="btn btn-success btn-block"
                                     style="border-radius:50px"><i class="glyphicon glyphicon-plus"></i> Add
                                 </button></td>

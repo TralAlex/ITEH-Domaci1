@@ -6,19 +6,12 @@ h1, h2, h3 {
     background: orange;
 }
 
-input, button[type='submit'] {
+input, button[type='submit'], select {
+    border: 5px solid yellow;
     background-color: orange;
     border-radius: 40px;
-    border-color: yellow;
-    border-width: 5px;
-    color: aqua;
-}
-
-select {
-    border-radius: 40px;
-    padding: 5px;
-    background: orange;
-    color: yellow;
+    color: white;
+    padding: 4px 10px;
 }
 
 table, tr, td {
@@ -28,4 +21,4 @@ table, tr, td {
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color: rgb(0, 162, 255);
-  }
+}
