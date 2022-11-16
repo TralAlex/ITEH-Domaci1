@@ -15,9 +15,7 @@ $("#dodajForm").submit(function(event){
     request.done(function(response, txtStatus, jqXHR){
         console.log(response);
         if(response !== "Error"){
-            alert("Rezervacija je dodata");
             console.log("You have added device successfuly");
-            appandRow(response)
             window.location.reload(true);
         }else{
             console.log(""+response);
@@ -79,8 +77,8 @@ function pretrazi() {
                 for (let i = 0; i < array.length; i++) {
                     const element = array[i];
                     
-                    const child = creteChild(element);
                     console.log(child);
+                    const child = creteChild(element);
                     const newTag = document.createElement('tr');
                     newTag.innerHTML = child;
                     table.getElementsByTagName('tbody')[0].append(newTag);
