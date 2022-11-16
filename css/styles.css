@@ -1,0 +1,27 @@
+h1, h2, h3 {
+    color: yellow;
+    font-weight: 700;
+    border: 4px solid;
+    border-radius: 50px;
+    background: orange;
+}
+
+input, button[type='submit'] {
+    background-color: orange;
+    border-radius: 40px;
+    border-color: yellow;
+    border-width: 5px;
+    color: aqua;
+}
+
+select {
+    border-radius: 40px;
+    padding: 5px;
+    background: orange;
+    color: yellow;
+}
+
+table, tr, td {
+    border: 0px;
+    color: white;
+}

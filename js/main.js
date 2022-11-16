@@ -125,11 +125,11 @@ function creteChild(obj) {
                 <td>
                     ${obj[6]}
                 </td>
-                <td><img src="${obj[7]}" alt="Phone" width="100" height="100"></td>
+                <td><img src="${obj[7]}" alt="Phone" width="50" height="50"></td>
                 <td>
                     <button id="btnObrisi" type="button" class="btn btn-success btn-block"
                         onclick='deleteProduct(${obj[0]});'
-                        style="background-color: orange; 1px solid black;"><i
+                        style="background-color: red; border-radius:50px;"><i
                             class="glyphicon glyphicon-minus"></i>
                         Delete
                     </button>

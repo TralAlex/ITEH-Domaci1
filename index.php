@@ -55,44 +55,6 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
       <button type="submit">PRIJAVA</button>
     </form>
   </div>
-  <tr>
-    <td>
-      6
-    </td>
-    <td>
-      A53
-    </td>
-    <td>
-      6
-    </td>
-    <td>
-      128
-    </td>
-    <td>
-
-      340$
-    </td>
-    <td>
-
-      blue
-    </td>
-    <td>
-      Android
-    </td>
-    <td>
-      https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg
-    </td>
-    <td><img src="1" alt="Phone" width="100" height="100"></td>
-    <style>
-      body {
-        background-image: url('plava.jpg');
-      }
-    </style>
-    <td><button id="btnObrisi" type="button" class="btn btn-success btn-block" onclick='deleteProduct(6);'
-        style="background-color: orange; 1px solid black;"><i class="glyphicon glyphicon-minus"></i>
-        Delete
-      </button></td>
-  </tr>
 </body>
 
 </html>

@@ -53,13 +53,13 @@ if ($sviBrendovi->num_rows == 0) {
 
     <div class="jumbotron text-center" style=" background-color: rgba(255, 182, 193, 0);">
         <div class="container">
-            <h1 style="color:darkred">BANANAS</h1>
+            <h1 style="color:yellow">BANANAS</h1>
         </div>
     </div>
 
-    <div class="col-md-8" style="text-align:center; width:66.6%;float:left">
+    <div style="text-align:center">
         <div id="pregled">
-            <table id="tabela" class="table sortable table-bordered table-hover ">
+            <table id="tabela" class="table sortable table-hover ">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -104,8 +104,7 @@ if ($sviBrendovi->num_rows == 0) {
                             <td> <input type="text" style="border: 1px solid black" name="slika"
                                     placeholder="Image URL *" value="" /></td>
                             <td> <button id="btnDodaj" type="submit" class="btn btn-success btn-block"
-                                    style="background-color: red; border: 1px solid black;"><i
-                                        class="glyphicon glyphicon-plus"></i> Add
+                                    style="border-radius:50px"><i class="glyphicon glyphicon-plus"></i> Add
                                 </button></td>
 
                         </form>
@@ -143,10 +142,10 @@ if ($sviBrendovi->num_rows == 0) {
                         <td>
                             <?php echo $red["os"] ?>
                         </td>
-                        <td><img src="<?php echo $red["slika"] ?>" alt="Phone" width="100" height="100"></td>
+                        <td><img src="<?php echo $red["slika"] ?>" alt="Phone" width="50" height="50"></td>
                         <td><button id="btnObrisi" type="button" class="btn btn-success btn-block"
                                 onclick='deleteProduct(<?php echo $red["Productid"] ?>);'
-                                style="background-color: orange; 1px solid black;"><i
+                                style="background-color: red; border-radius:50px;"><i
                                     class="glyphicon glyphicon-minus"></i>
                                 Delete
                             </button></td>
