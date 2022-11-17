@@ -5,7 +5,6 @@ $("#dodajForm").submit(function(event){
     const $inputs = $form.find("input, select, button");
     const serijalizacija = $form.serialize();
     console.log(serijalizacija);
-    debugger;
     request = $.ajax({ //ajax prihvata json objekat
         url: 'handler/add.php',
         type: 'post',
@@ -77,7 +76,6 @@ function pretrazi() {
                 for (let i = 0; i < array.length; i++) {
                     const element = array[i];
                     
-                    console.log(child);
                     const child = creteChild(element);
                     const newTag = document.createElement('tr');
                     newTag.innerHTML = child;

@@ -96,9 +96,9 @@ CREATE TABLE `product` (
 
 INSERT INTO `product` (`model`, `ram`, `storage`, `price`, `colour`, `os`, `Brandid`,`slika`) VALUES
 ('12', '4','256','640$','black','IOS', 2,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
-('S21', '8','256','1040$','blue','Android', 1,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
-('Nova 3', '4','64','440$','black','Harmony', 4,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
-('12 lite', '6','64','240$','blue','Android', 3,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
-('13', '4','128','940$','red','IOS', 2,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg'),
-('A53', '6','128','340$','blue','Android', 1,'https://www.mobilplanet.net/wp-content/uploads/2022/02/iphone-12-Black_4.jpg');
+('S21', '8','256','1040$','blue','Android', 1,'b.jpg'),
+('Nova 3', '4','64','440$','black','Harmony', 4,'huaw.jpg'),
+('12 lite', '6','64','240$','blue','Android', 3,'xia.jpg'),
+('13', '4','128','940$','red','IOS', 2,'iphone.jpg'),
+('A53', '6','128','340$','blue','Android', 1,'sam.jpg');
 
